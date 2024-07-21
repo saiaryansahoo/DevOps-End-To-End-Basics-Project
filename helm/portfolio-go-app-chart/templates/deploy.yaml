@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: portfolio-go-app
-        image: aryanjeet/portfolio-go-app:v1
+        image: aryanjeet/portfolio-go-app:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
