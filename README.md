@@ -81,7 +81,7 @@ Install and configure ArgoCD on your Kubernetes cluster. Follow the official Arg
 ## 📄Usage
 Access the portfolio web page by navigating to the external IP of your Kubernetes cluster. The application should be up and running, showcasing the portfolio web page.
 
-## 🤝Contributinh
+## 🤝Contributing
 Contributions are welcome! Please fork the repository and submit pull requests for any improvements or additions.
 
 ## 📜License
