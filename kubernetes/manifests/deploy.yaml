@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:kubectl get pods
+  name: portfolio-go-app
+  labels:
+    app: portfolio-go-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: portfolio-go-app
+  template:
+    metadata:
+      labels:
+        app: portfolio-go-app
+    spec:
+      containers:
+      - name: portfolio-go-app
+        image: aryanjeet/portfolio-go-app:v1
+        ports:
+        - containerPort: 8080
