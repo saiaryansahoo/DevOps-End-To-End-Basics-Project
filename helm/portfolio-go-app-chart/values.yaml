@@ -6,7 +6,7 @@ image:
   repository: aryanjeet/portfolio-go-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10031579301"
+  tag: "10442261602"
 
 ingress:
   enabled: false
